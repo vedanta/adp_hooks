@@ -1,0 +1,46 @@
+file_client: local
+gitfs_provider: gitpython
+fileserver_backend:
+    - git
+gitfs_remotes:
+    - https://github.com/vedanta/sample_wp.git
+file_roots:
+    base:
+        - /srv/salt
+pillar_roots:
+    base:
+        - /srv/salt/pillar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
