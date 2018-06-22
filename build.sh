@@ -1,3 +1,7 @@
+#!/bin/bash 
+
+set -euo pipefail
+
 name="wordpress"
 type="salt"
 salt_config="https://raw.githubusercontent.com/vedanta/sample_wp/master/conf/minion"
